@@ -1,0 +1,117 @@
+
+body {
+    background-color: rgb(46, 22, 22);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+.hh {
+    color: aliceblue;
+    padding-top: 200px;
+    margin-left: 260px;
+    font-size: 48px;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 800px;
+    margin-left: 190px;
+    margin-top: 100px;
+}
+.btn1 {
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: aqua;
+    font-size: 22px;
+    color: aliceblue;
+    box-shadow: 5px 5px 5px  ;
+}
+.btn2 {
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: palevioletred;
+    font-size: 22px;
+    color: aliceblue;
+    box-shadow: 5px 5px 5px;
+}
+.btn3 {
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    background-color:brown;
+    font-size: 22px;
+    color: aliceblue;
+    box-shadow: 5px 5px 5px;
+}
+@media screen and (max-width:500px) {
+    .buttons {
+        display: block;
+        margin-bottom: 100px;
+        margin-left: 130px;
+        flex-wrap: wrap;
+    }
+    .hh {
+        font-size: 30px;
+        width: 300px;
+        text-align: center;
+        margin-left: 100px;
+        line-height: 30px;
+    }
+    .btn1 {
+        width: 160px;
+        height: 50px;
+        border-radius: 15px;
+        background-color: aqua;
+        font-size: 22px;
+        color: aliceblue;
+        box-shadow: 5px 5px 5px  ;
+        margin-bottom: 30px;
+    }
+    .btn2 {
+        width: 160px;
+        height: 50px;
+        border-radius: 15px;
+        font-size: 22px;
+        color: aliceblue;
+        box-shadow: 5px 5px 5px  ;
+        margin-bottom: 30px;
+    }
+    .btn3 {
+        width: 160px;
+        height: 50px;
+        border-radius: 15px;
+        font-size: 22px;
+        color: aliceblue;
+        box-shadow: 5px 5px 5px  ;
+    }
+}
+@media screen and (max-width:430px) {
+    .hh {
+        margin-left: 60px;
+    }
+}
+@media screen and (max-width:400px) {
+    .buttons {
+        margin-left: 120px;
+    }
+}
+@media screen and (max-width:380px) {
+    .hh {
+        margin-left: 40px;
+    }
+    .buttons {
+        margin-left: 110px;
+    }
+}
